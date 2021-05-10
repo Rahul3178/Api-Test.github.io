@@ -1,0 +1,84 @@
+body
+{
+    border: none;
+    background-color: whitesmoke;
+    
+    height: 100vh;
+    
+    
+    display: flex;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.row{
+    border: none;
+    background-color:lightgreen;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    border-radius:40px;
+}
+.btne{
+     
+     display:flex;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     width: 7rem;
+     
+}
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: none;
+    border-radius: 30%;
+}
+
+.img
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+.btn ,.inname ,.lb{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+}
+.inname{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 3rem;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.green{
+    background-color: lightgreen;
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+}
+*{
+    font-family: 'Lobster', cursive;
+}
